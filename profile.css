@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#container{
+    background-color:black;
+    color:white;
+    height:600px;
+    width:350px;
+}
+
+/* ---------------------------------- */
+#container>#userid{
+    /* font-size:20px; */
+    display:flex;
+}
+#container>#userid>#idname{
+    width:75%;
+    font-size: 20px;
+}
+#container>#userid>#settings{
+    width:25%;
+    font-size: 25px;
+    display:flex;
+    justify-content: flex-end;
+}
+
+/* ----------------------------------- */
+
+nav{
+    margin-top: 20px;
+    display:flex;
+    /* justify-content: space-evenly; */
+}
+
+#profilepic>img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-left:20px;
+}
+
+aside{
+    /* background-color: rgb(159, 159, 218); */
+    width:100%;
+    /* display:flex; */
+    margin-left: 20px;
+}
+#numbers{
+    display:flex;
+    justify-content: space-evenly;
+    /* margin-top: -50px; */
+}
+
+/* -------------------------------------------------- */
+
+#bio{
+    margin-left: 20px;
+    margin-bottom:10px;
+}
+
+/* ----------------------------------------- */
+
+#buttons{
+    width:100%;
+    /* height:25px; */
+    display:flex;
+    text-align:center;
+    /* justify-content: space-evenly; */
+    /* border:5px; */
+}
+#buttons>.button{
+    border:1px solid;
+    border-radius:5px;
+    width:25%;
+    
+
+}
+
+/* ----------------------------------------------- */
+
+#highlights{
+    margin-top:15px;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+#highlights>img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    border:3px solid;
+    border-color: rgb(203, 26, 133);
+}
+
+/* ------------------------------------------------- */
+
+#pagesSymbols{
+    display:flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin-top:10px;
+    /* border:3px solid;
+    border-color:black; */
+    
+}
+#pagesSymbols>.page{
+    border: 2px solid;
+    border-radius: 5px;
+    width:25%;
+    height:35px;
+    text-align: center;
+
+}
+
+/* -------------------------------------------- */
+
+#postpage{
+    width:100%;
+    height:220px;
+}
+#postpage>img{
+    width:32%;
+    height:100px;
+    
+}
+
+/* --------------------------------------- */
+
+footer>.foot>img{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+footer{
+    height:20px;
+    /* margin-bottom: -50px; */
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+footer>.foot{
+    text-align: center;
+    /* border-top:1px solid; */
+    width:20%;
+    
+}
